@@ -13,6 +13,6 @@ def ordenar_burbuja(lista):
         indice_lista_desordenada = indice_lista_desordenada + 1
     return lista
 
-lista_desordenada = [7, 5, 2, 4, 8, 1, 8, 5, 17, 14]
-lista_ordenada = [1, 2, 4, 5, 5, 7, 8, 8, 14, 17]
+lista_desordenada = [7, 5, 2, 4, 8, 1, 8, 5, 20, 14]
+lista_ordenada = [1, 2, 4, 5, 5, 7, 8, 8, 14, 20]
 assert ordenar_burbuja(lista_desordenada) == lista_ordenada
